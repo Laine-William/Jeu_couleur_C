@@ -1,0 +1,14 @@
+Les trois étapes pour compiler un programme :
+
+Compilation :
+	     _ gcc -c -O3 -Wall -ansi -Wextra (chemin complet du ou des fichier) /* On selectionne le fichier, qu'on peut faire glisser dans l'invite de commande [première méthode], sinon on appuie sur la touche (\\...) "copier le chemin d'accès" présente dans l'accueil des fichiers, disponible seulement sous Windows [deuxième méthode]. */
+
+Edition :
+	 _ gcc -o exe (nom du ou des fichiers).o
+
+Exécution :
+	   _ .\(nom du ou des fichiers) /* On crée un fichier exécutable, qui est sans extension en plus du fichier avec l'extension .C qui est déja présent qui a servie pour la compilation (débuggage des erreurs de code). */ 
+
+
+L'étape pour créer un fichier éxécutable pour l'éxécution :
+							    _ on met entre guillemets le nom du fichier ("..."), comme ça il n'y a pas d'extension qui apparait.  
